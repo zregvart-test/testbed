@@ -1,0 +1,14 @@
+name: Sleep 30 sec
+'on':
+  pull_request:
+    types:
+      - opened
+      - reopened
+    branches:
+      - main
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 30
