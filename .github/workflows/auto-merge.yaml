@@ -7,3 +7,5 @@ jobs:
   auto-merge:
     uses: zregvart-test/shared-workflows/.github/workflows/auto-merge.yaml@main
     secrets: inherit
+    permissions:
+      pull-requests: write
