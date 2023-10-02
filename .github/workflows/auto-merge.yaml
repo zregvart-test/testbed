@@ -5,4 +5,4 @@ name: 'Auto merge'
 
 jobs:
   auto-merge:
-    uses: zregvart-test/.github/workflows/auto-merge.yaml@main
+    uses: zregvart-test/.github/.github/workflows/auto-merge.yaml@main
