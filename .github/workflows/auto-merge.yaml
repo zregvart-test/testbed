@@ -5,6 +5,4 @@ name: 'Auto merge'
 
 jobs:
   auto-merge:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: zregvart-test/.github/workflows/auto-merge.yaml@main
+    - uses: zregvart-test/.github/workflows/auto-merge.yaml@main
